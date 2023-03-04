@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(177, 177, 177);
+  width: 70%;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#btn {
+  background-color: brown;
+  color: white;
+  width: 1in;
+  height: fit-content;
+  margin-left: 2in;
+  padding: 10px;
+}
